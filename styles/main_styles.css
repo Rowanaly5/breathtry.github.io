@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+
+/*********************************
+ Body and some general stuff
+*********************************/
+@media screen and (min-width:768px){
+	*{
+			height: auto ;
+		
+	}
+}
+.container{
+height: auto;
+width: 100%;
+position: relative;
+
+}
+
+
+.owl-carousel {
+width: 100%;
+height: auto;
+position: relative;
+
+
+}
+
+
+.p-text{
+	position: relative;
+color:#000;
+
+font-family: fantasy;
+word-wrap: none;
+font-weight: bold;
+padding: 5px;}
+
+.test_item .images
+{
+width: 100%;
+height: auto;
+}
+
+
+.test_slider_nav
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 10;
+	cursor: pointer;
+}
+
+.test_slider_prev
+{
+left: -55px;	
+}
+.test_slider_next
+{
+	right: -55px;
+}
+
